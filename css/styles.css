@@ -1,0 +1,165 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;/*black*/ 
+}
+
+p{
+    color:rgb(61, 61, 61);
+}
+
+
+/* spacing in between navbar settings */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section{
+    background-color: #ff4c68;
+    color:#fff;
+}
+.white-section{
+    background-color:#fff;
+}
+
+
+/* navigation Bar */
+.navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+  }
+  .navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.navbar{
+    padding-bottom: 3.5rem;
+}
+
+/* Title Section */
+#title{
+    height:700px;
+    text-align: left;
+}
+#title .container-fluid{
+    padding:3% 15%;
+}
+
+.title-text{
+    font-size:3rem;
+    line-height: 1.5;
+}
+
+ /* title image */
+ .iphone-png{
+    width: 50%;
+    position: relative;
+    transform: rotate(25deg);
+    left:30%;
+    z-index: 1;
+}
+
+.download-button{
+    margin:3% 3% 3% 0;  
+}
+
+@media (max-width:1028px) {
+
+    #title{
+        text-align: center;
+        height:40%;
+    }
+    .iphone-png{
+        text-align: center;
+        position:static;
+        transform:rotate(0);
+    }
+}
+
+
+/* features */
+#features{
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    position: relative;
+    z-index: 1;
+}
+
+/* font awesome colors and size */
+#font-awesome-color{
+    color:#ef8172;
+    font-size: 75px;
+    margin:3rem 0 3rem 0;
+}
+#font-awesome-color:hover{
+    color:#ff4c68;
+}
+
+
+/* Testimonials Section */
+#testimonials{
+    background-color:#ef8172;
+}
+.testimonial-image{
+    border-radius: 100%;
+    width:6rem;
+}
+.testimonial-text{
+    font-size:3rem;
+    line-height: 1.5;
+}
+
+#press{
+    background-color:#ef8172;
+    padding:5%;
+}
+.press-logo{
+    width:10%;
+    margin: 0px 4% 0 4%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+
+/* Pricing */
+#pricing{
+    padding:100px;
+}
+.pricing-col{
+    padding:3% 2%;
+}
+
+
+
+
+/* Call to Action */
+#cta{
+    font-family: 'Montserrat', sans-serif;
+    padding:5% 10%;
+}
+.font-spacing{
+    margin: 0.5%;
+}
+.cta-header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;/*black*/ 
+}
+
+/* Footer */
+#footer{
+    padding:5% 10%;
+}
+
